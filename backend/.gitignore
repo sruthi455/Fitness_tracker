@@ -1,0 +1,18 @@
+# Ignore environment variables
+.env
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Ignore system files
+.DS_Store
+
+# Ignore build/deploy output
+.vercel
+dist/
+build/
